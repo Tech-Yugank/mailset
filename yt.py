@@ -3,7 +3,7 @@ import pyautogui
 import webbrowser
 import random
 
-number = input("hi")
+number = input("number of views:-")
 sleep_time = random.randint(25, 30)
 
 webbrowser.get('C:/Program Files/Google/Chrome/Application/chrome.exe %s').open('')
